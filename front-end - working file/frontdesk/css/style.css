@@ -1,0 +1,784 @@
+/* Comman Css properties and Values */
+body{
+  font-family: 'Raleway', sans-serif;
+}
+.block-spacing{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.block-spacing-top{
+  margin-top:30px;
+}
+.container-fluid{
+  padding:0px;
+}
+.row{
+  margin:0px;
+}
+.pad-l-20{
+  padding-left: 20px;
+}
+.noborder{
+  border-bottom: 1px solid transparent;
+}
+a:link{text-decoration: none;}
+a:active{text-decoration: none;}
+a:focus{text-decoration: none;}
+a:visited{text-decoration: none;}
+
+/*Menu section Starts here*/
+.menu-section{
+  border-bottom:1px solid #f8c899;
+  font-size:17px;
+  padding:10px 0 0;
+  margin:0px;
+}
+.menu-section .navbar{
+  margin-bottom: 0px;
+}
+.menu-section .navbar-toggle{
+  background-color: #2b2b2b;
+  margin-bottom:15px;
+}
+.menu-section .icon-bar{
+  background-color:white;
+}
+.menu-section .navbar-collapse.collapse.in{
+  border-top: 1px solid #f8c899;
+}
+.menu-section .navbar-brand{
+  padding:10px 15px;
+}
+.navbar-nav>li>a{
+  color:#f09234;
+  background-color: transparent;
+}
+.navbar-nav>li>a:hover{
+  background-color: transparent;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+  background-color: transparent;
+  border-color:transparent;
+}
+/* Menu Section Ends Here */
+
+/* Carousel Section Starts here */
+.carousel-section{
+  min-height: 400px;
+}
+.carousel-txt-box{
+  text-align: center;
+}
+.carousel-head-text{
+  color:#f09233;
+  font-size:42px;
+}
+.carousel-head-para{
+  color:#666666;
+  font-size:18px;
+}
+.caoursel-price-box{
+  margin-top: 10px;
+}
+.carousel-price-des{
+  color:#666666;
+  font-size:20px;
+}
+.carousel-price{
+  color:#666666;
+  position: relative;
+  top: -10px;
+  font-size:30px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.carousel-price-tframe{
+  color:#666666;
+  font-size:28px;
+  font-weight: lighter;
+}
+.carousel-section .btn-primary{
+  background-color: #2b2b2b;
+  font-size: 26px;
+  position: relative;
+  top: -10px;
+  width:200px;
+  height:60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.carousel-indicators .active{
+  background-color:orange;
+  border-radius: 50%;
+  width:18px;
+  height:18px;
+}
+.carousel-indicators li{
+  background-color:black;
+  border-radius: 50%;
+  width:16px;
+  height:16px;
+}
+.carousel-indicators{ bottom: 10px; }
+.img1{
+  background-image: url(../images/rsz_img1.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  min-height: 670px;
+}
+/* Carousel Section Ends here */
+
+/* Company message section starts here*/
+.message-section{
+  background-color: #f09233;
+  color:#fff;
+  font-size: 22px;
+  min-height: 50px;
+  padding: 10px;
+}
+/* Company message section Ends here*/
+
+/* Product Section Starts here*/
+.product-section{
+  border-bottom: 1px solid #838383;
+}
+.product-heading-text{
+  font-size:32px;
+  color:#f09233;
+}
+.product-body-text{
+  padding: 30px 0px;
+  text-align: justify;
+}
+.products-head{
+  color:#969696;
+  font-size: 18px;
+  font-weight:600;
+  padding-top: 15px;
+}
+.products-txt{
+  padding:5px 0px 15px 40px;
+  text-align: justify;
+}
+i.fa.fa-globe{
+  color: #f09233;
+  font-size:30px;
+  padding-right:10px;
+  vertical-align:middle;
+}
+/* Product Section Ends here*/
+
+/*Table Section css Begins Here*/
+.table-section{
+  background-color: #f3f3f3;
+}
+.tab-heading{
+  color:#f09233;
+  font-size: 32px;
+}
+.tab-para{
+  color:#767676;
+  font-size:18px;
+  padding-top: 20px;
+}
+.pricing-section{
+  font-family: sans-serif;
+}
+.pricing-product-table{
+  padding-top:30px;
+}
+.pricing-product-head{
+  color:#f09234;
+  font-size: 20px;
+  font-weight: bold;
+  padding:10px;
+}
+.pricing-tab-product1{
+  background-color: #fff;
+  border:1px solid #767676;
+  border-radius: 5px;
+  min-height: 460px;
+}
+.pricing-tab-product2{
+  background-color: #fff;
+  border:2px solid #f09233;
+  border-radius: 5px;
+  min-height: 535px;
+}
+.pricing-tab-product3{
+  background-color: #fff;
+  border:1px solid #767676;
+  border-radius: 5px;
+  min-height: 460px;
+}
+.enchanced-title{
+  background-color: #f09233;
+  min-height: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 3px;
+}
+.product-oldprice{
+  color: #a2a2a2;
+  font-size: 22px;
+}
+.product-newprice{
+  font-size: 36px;
+  padding-top: 10px;
+}
+.tab-config{
+  color: #a3a3a3;
+  font-size: 16px;
+}
+.table-section sup {top:-0.2em;}
+.table-section ul{
+ font-size: 22px;
+ line-height: 2.0em;
+ padding-top: 18px;
+ text-align: center;
+}
+.pricing-cont-wrapper{
+  padding:25px 12px 15px 12px;
+}
+.pricing-cont-wrapper2{
+  padding:12px 12px;
+}
+.table-section .btn-primary{
+background-color: #2b2b2b;
+height:55px;
+width: 200px;
+font-size: 26px;
+margin-top: 10px;
+}
+/*Table Section css Begins Here*/
+
+/* Product Description Section Starts here - Note : New Design has been implemented for desktops */
+.product-des-section{
+  background-color: #f3f3f3;
+  border-bottom: 0.5px solid gray;
+}
+.pro-heading{
+  background-color: #f09234;
+  color:#fff;
+  min-height: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 30px;
+  padding:5px;
+}
+.mob-panel{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.panel-heading a.collapsed span.crt{
+	display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+	border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 9px solid #959595;
+}
+.crt{
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  content: ' ';
+	border-top: 9px solid #f09234;
+	border-left: 9px solid transparent;
+	border-right: 9px solid transparent;
+}
+.pannel-inside-box{
+  padding: 30px 15px;
+}
+.panel-heading-text{
+  color:#f09234;
+  font-size:32px;
+  padding-bottom: 20px;
+}
+.pannel-title-txt{
+  font-size: 18px;
+  padding-left:10px;
+}
+.padding-para-left{
+  padding-left:15px;
+  text-align:left;
+  display:block;
+}
+.panel-title a { color: #f09233; }
+.panel-title a.collapsed { color: #585858; }
+.mob-panel a{
+  color:#f09234;
+  font-size: 20px;
+}
+.mob-panel a.collapsed {
+  color: #585858;
+  font-size: 20px;
+}
+.pannel-inside-box .panel-heading, .panel-body{
+  background-color: #fff;
+}
+.pannel-inside-box .panel-heading{
+  border-bottom: 0.5px solid #ddd;
+}
+
+/* Modification of Bootsrap property - Product Description Section*/
+
+.product-des-header .nav-tabs { border-bottom: 1px solid transparent; }
+.product-des-header .nav>li>a {
+  color:#fff;
+  font-size: 20px;
+  padding: 20px;
+}
+.product-des-header .nav-tabs>li>a:hover{ border: 1px solid transparent; }
+.product-des-header .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  color:#fff;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+.panel-title a.collapsed span.caret{
+	display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+	border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 9px solid orange;
+}
+.panel-title a.collapsed span.caret::before {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    position: relative;
+    top: -12px;
+    left: -9px;
+    content: '';
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #fff;
+}
+.panel-title a span.padding-title-txt{ color: #f09233; }
+.panel-title a.collapsed span.pannel-title-txt{ color: #585858; }
+.pannel-box  .panel-default>.panel-heading {
+    color: #333;
+    background-color: transparent;
+    border-bottom: 0.5px solid #ddd;
+}
+
+.product-des-header .nav-tabs>li>a:hover{
+  background-color:transparent;
+}
+/* Product Description Session Ends here - */
+
+/* Contact Section Starts here*/
+.contact-section{
+  border-bottom: 0.5px solid orange;
+}
+.contact-section img{
+  max-height: 409px;
+}
+.contact-section h2{
+  color:#f09233;
+  padding:30px 0 20px 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 42px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  word-spacing: 3px;
+}
+.contact-section h3{
+  color:#f09233;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 32px;
+  word-spacing: 5px;
+}
+/* Contact Section Ends here*/
+
+/*Get started section Starts here*/
+.get-started-sec{
+  border-bottom: 1px solid #f09234;
+}
+.get-started-txt{
+  color:#939393;
+  font-size: 30px;
+  padding:7px 0px;
+  text-align: center;
+}
+.get-started-sec .btn{
+  background-color: #2b2b2b;
+  color:white;
+  font-size: 26px;
+  width:180px;
+  height:50px;
+  padding-top: 5px;
+}
+/*Get started Section Ends here*/
+
+/*Footer Section starts here */
+.footer-section{
+  background-color: #2b2b2b;
+  border-bottom: 1px solid white;
+  color:#fff;
+}
+.footer-section p{
+  font-size: 28px;
+}
+.footer-section a{
+  color:#eaeaea;
+  font-size: 18px;
+}
+/*Footer Section Ends here*/
+
+/*Copyright Section begins here*/
+.copyright-section{
+  color:#868686;
+  background-color: #2b2b2b;
+  padding:15px 0px;
+}
+.icon{
+  text-align: center;
+}
+.icon-padding-f{
+  padding-right: 15px;
+}
+.icon-padding-t{
+  padding-left: 15px;
+}
+.copyright-mess{float:right;}
+/*Copyright Section Ends here*/
+
+/* -----------------------------------------------------------------------------Mobile Version of css Ends Here-----------------------------------------------------------------------------------*/
+
+/* -----------------------------------------------------------------------------Tablet Version Media query Starts here----------------------------------------------------------------------------*/
+
+@media (min-width:768px){
+
+  /* Menu Section Starts Here*/
+  .nav>li>a{
+    padding: 15px 10px;
+  }
+  .dropdown-menu{
+    min-width: 140px;
+    border:1px solid #c0c0c0;
+    top:50px;
+  }
+  .dropdown-menu>li>a:hover{
+    background-color: transparent;
+  }
+  .dropdown-menu li{
+    margin:0px 5px;
+    border-bottom:1px dotted #c0c0c0;
+  }
+  .dropdown-menu li:last-child{
+    border-bottom:1px dotted transparent;
+  }
+  .dropdown-menu::before{
+    border-bottom: 10px solid #f19334;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: "";
+    left: 40%;
+    position: absolute;
+    top: -10px;
+  }
+  .navbar-right .dropdown-menu{
+    left:-20px;
+    border-top: 2px solid #f09234;
+  }
+  .icon-box-padding{ padding: 12px 14px 0px 14px; }
+  .icon-comment-box{
+	  border-right: 1px solid #2b2b2b;
+	  padding-right: 10px;
+	}
+  .fa-comment-o::before{ color:#f09234;}
+  .icon-phone-box{ padding-left: 10px; }
+  .fa-phone::before{ color:#f09234; }
+  .login-border {
+  border: 1px solid #2b2b2b;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 15px;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  }
+  .login-border a{ color:#f19334; }
+  /* Menu Section Ends Here */
+
+  /* Carousel Section Starts Here*/
+  .img1{
+    background-image: url(../images/img2.png);
+    background-position: right bottom;
+    min-height: 400px;
+  }
+  .carousel-section{
+    max-height: 400px;
+  }
+  .carousel-head-para{
+    font-size: 24px;
+  }
+  .carousel-txt-box{
+    max-width: 450px;
+  }
+  .carousel-price-des{
+    font-size: 24px;
+  }
+  .carousel-price{
+    font-size: 30px;
+  }
+  /* Carousel Section Starts Here*/
+
+  /*Company Message Section Starts Here*/
+  .message-section{
+    font-size: 28px;
+    padding: 15px;
+  }
+  /*Company Message Section Ends Here*/
+
+  /*Product Section Starts here*/
+  .products-head{
+    font-size: 26px;
+  }
+  i.fa.fa-globe{
+    font-size: 34px;
+  }
+  /*Product Section Ends Here*/
+
+  /*Table Section Begins here*/
+  .table-section .col-sm-4{
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .pricing-product-table{
+    padding-top: 60px;
+    max-width: 290px;
+  }
+  .pricing-product-table:nth-child(2){
+    padding-top: 30px;
+    position: relative;
+    top:8px;
+    max-width: 310px;
+  }
+  .pricing-tab-product1{
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .pricing-tab-product3{
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+  .table-section ul{
+    text-align: left;
+    padding-left: 15px;
+  }
+  /*Table Section Ends Here*/
+
+  /*Product Description Section - All the css properties are inherted from xs*/
+
+  /*contact Section Starts here*/
+  .contact-section h2{
+    font-size: 48px;
+  }
+  .contact-section h3{
+    font-size: 38px;
+  }
+  .contact-section p{
+    font-size: 20px;
+  }
+  /*contact Section Ends here*/
+
+  /*Footer Section Starts here*/
+  .footer-section .col-sm-3{
+    min-height: 186px;
+  }
+  /*Footer Section Ends Here*/
+}
+
+/* -----------------------------------------------------------------------------Tablet Version Media query Ends here----------------------------------------------------------------------------*/
+
+/* -----------------------------------------------------------------------------Desktop Version Media query Starts here----------------------------------------------------------------------------*/
+
+@media (min-width:992px){
+  /* Comman Desktop Classes starts here*/
+  .block-spacing-top{
+    margin-top:100px;
+  }
+  .block-spacing{
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  /* Comman Desktop Classes starts here*/
+
+  /* Menu Section Starts Here*/
+  .navbar-right .dropdown-menu{
+    left:-25px;
+    border-top: 2px solid #f09234;
+    min-width: 160px;
+  }
+  /* Menu Section Ends Here */
+
+  /* Carousel Section Starts Here*/
+  .carousel-section{max-height: 532px;}
+  .carousel-txt-box{
+    text-align: left;
+  }
+  .img1{
+    background-image: url(../images/img1.png);
+    min-height: 533px;
+  }
+  .carousel-head-para{
+    font-size: 28px;
+  }
+  .carousel-txt-box{
+    float: left;
+    max-width: 600px;
+  }
+  .carousel-price-des{
+    font-size: 26px;
+  }
+  .carousel-price{
+    font-size: 34px;
+  }
+  /* Carousel Section Ends here*/
+
+  /*Company message Section Starts here*/
+  .message-section{
+    font-size: 32px;
+    padding: 20px;
+    min-height: 70px;
+  }
+  /*Company message Section Ends here*/
+
+  /*Product Section Starts here*/
+  .product-section{
+    min-height: 520px;
+  }
+  .product-heading-text{
+    font-size: 36px;
+  }
+  .product-body-text{
+    padding: 30px 50px;
+  }
+  .products-head{
+    font-size: 18px;
+  }
+  /*Product Section Ends here*/
+
+  /*Table Section Starts here*/
+  .table-wrapper{
+    width:880px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .table-section{
+    min-height: 840px;
+    border-bottom: 1px solid #f09234;
+  }
+  .pricing-product-head{
+    max-width: 290px;
+  }
+  .pricing-product-head:nth-child(2){
+    max-width: 310px;
+  }
+  .table-section ul{
+    padding-left: 40px;
+  }
+  /*Table Section Ends Here*/
+
+  /*Product Description Section Starts here*/
+  .product-des-wrapper{
+    background-color: #f3f3f3;
+    border-bottom: 0.5px solid gray;
+    min-height: 550px;
+    padding-bottom: 50px;
+  }
+  .product-des-header{
+    background-color: #f09233;
+    min-height: 70px;
+  }
+  .product-des-header .nav{
+    width:550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .product-des-header .nav>li.active::before{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    position: absolute;
+    top: 60px;;
+    left: 40%;
+    content: '';
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #f3f3f3;
+    border-left: 12px solid transparent;
+  }
+  .pannel-box{ padding:70px 40px; }
+  .panel-heading-text{
+  	color:orange;
+  	font-size:48px;
+    padding-bottom: 20px;
+  }
+  .caret{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    content: ' ';
+  	border-top: 9px solid orange;
+  	border-left: 9px solid transparent;
+  	border-right: 9px solid transparent;
+  }
+  .caret::before{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    content: ' ';
+  	border-top: 6px solid white;
+  	border-left: 6px solid transparent;
+  	border-right: 6px solid transparent;
+    position: relative;
+    position: relative;
+    top: -18px;
+    left: -6px;
+  }
+  .padding-para-left{
+    padding-left:25px;
+    text-align:left;
+    display:block;
+  }
+  .product-des-wrapper a , a:hover{text-decoration: none;}
+  .pannel-title-txt{
+    font-size: 22px;
+    padding-left:20px;
+  }
+  /*Product Description Section Ends Here*/
+
+  /*Contact Section Begins Here*/
+  .contact-section h2{
+    font-size: 52px;
+  }
+  /*Contact Section Ends Here*/
+
+  /*Get started Section Starts here*/
+  .get-started-txt{
+    text-align:right;
+  }
+  /*Get Started Section Ends here*/
+
+  /*Footer Section Starts here*/
+  .footer-section .col-md-2{
+    width:20%;
+  }
+  /*Footer Section Starts here*/
+}
